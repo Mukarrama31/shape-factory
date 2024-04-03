@@ -1,0 +1,87 @@
+:root {
+    --color-primary: #262626;
+    --color-secondary:#fff;
+}
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+.shapesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle,
+.square {
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.shapeCreator {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+}
+
+.shapeCreator select,
+.shapeCreator input,
+.shapeCreator button {
+    margin: 0 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.shapeCreator button {
+    background-color: #ff8c00;
+    /* Orange color */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.shapeCreator button:hover {
+    background-color: #e67e22;
+    /* Darker orange */
+}
+
+.shapesContainer {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.circle:hover,
+.square:hover {
+    transform: scale(1.1);
+}
