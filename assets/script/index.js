@@ -7,24 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
 let shapeCount = 0; // Counter to track the number of shapes created
 
 const colorNames = {
-    '#000000': 'Black',
-    '#FFFFFF': 'White',
-    '#FF0000': 'Red',
-    '#00FF00': 'Lime',
-    '#0000FF': 'Blue',
-    '#FFFF00': 'Yellow',
-    '#00FFFF': 'Cyan',
-    '#FF00FF': 'Magenta',
-    '#C0C0C0': 'Silver',
-    '#808080': 'Gray',
-    '#800000': 'Maroon',
-    '#808000': 'Olive',
-    '#008000': 'Green',
-    '#800080': 'Purple',
-    '#008080': 'Teal',
-    '#000080': 'Navy',
-    '#EAE31A': 'Lemon',
-    // Add more predefined colors as needed
+    '#09f': 'Blue',
+    '#9f0': 'Green',
+    '#f90': 'Orange',
+    '#f09': 'Pink',
+    '#90f': 'Purple',
 };
 
 function createShape() {
